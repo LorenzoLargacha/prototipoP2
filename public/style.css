@@ -1,0 +1,75 @@
+/* Reset básico para navegadores */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body, html {
+  font-family: "Poppins", sans-serif;
+  background-color: #f0f0f0;
+  padding-bottom: 40px;
+}
+
+main {
+  padding: 20px;
+}
+
+header {
+  text-align: left;
+  padding: 20px 10px 10px 10px;
+}
+
+h1 {
+  color: #37474F;
+  font-size: 30px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  text-align: left;
+  padding-left: 2vh;
+}
+
+h2 {
+  color: #37474F;
+  font-size: 20px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+h3 {
+  color: #37474F;
+  font-size: 15px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.navigation {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #fff;
+  display: flex;
+  justify-content: space-around;
+  padding: 10px 0;
+  box-shadow: 0 -2px 4px rgba(0,0,0,0.1);
+  border-radius: 10px;
+}
+
+.nav-icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.nav-icon img {
+  width: 50px;
+  height: 50px;
+}
+
+.nav-icon img:after {
+  content: "";
+}

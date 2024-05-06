@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detalles del Producto</title>
+    <link rel="stylesheet" href="../style.css" />
+    <link rel="stylesheet" href="producto.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <header>
+          <a href="../alimentacion-aperitivos.html">
+              <img src="../media/iconos/icono_back_arrow.png" alt="Regresar" class="back-arrow" />
+          </a>
+          <h1>Detalles del producto</h1>
+      </header>
+      <div class="product-image" id="2">
+        <img src="../media/lays.jpg" alt="Aceitunas Campo Real">
+      </div>
+        <div class="product-info">
+        <div class="availability-container">
+          <h3 class="availability">Disponible </h3>
+          <a href="../productos/mapaPatatas.html">
+            <img src="../media/iconos/icono_mapa.png" alt="Imagen relacionada" class="header-image"/>
+          </a>
+        </div>
+        <h2 class="product-name">Patatas Lays</h2>
+        <div class="product-details">
+          <span class="product-weight">195g</span>
+          <span class="product-price">1,99€</span>
+        </div>
+        <div class="category-section">
+          <div class="category-title">
+            <h2>Información</h2>
+          </div>
+          <div class="category-description">
+            <p>Todo empieza con papas de campo, que se cocinan y condimentan a la perfección para que cada LAY'S tenga una crocantes insuperable y rebose del sabor a papa fresca. Happiness in Every Bite.</p>
+          </div>
+        </div>
+        <div class="recommendations-section">
+          <div class="recommendations-title">
+            <h2>Recomendaciones</h2>
+          </div>
+          <div class="product-recommendation">
+            <a href="aceitunas.html">
+              <img src="../media/aceitunas_cr.png" alt="Aceitunas Campo Real" class="recommendation-image">
+            </a>
+            <div class="product-info">
+              <p class="product-name">Aceitunas Campo Real</p>
+              <p class="product-price old-price">4,99€</p>
+              <p class="product-recommendation-price">4,50€</p>
+            </div>
+          </div>
+          <div class="product-recommendation">
+            <a href="pepinillos.html">
+              <img src="../media/pepinilloss.jpg" alt="Pepinillos" class="recommendation-image">
+            </a>
+            <div class="product-info">
+              <p class="product-name">Pepinillos</p>
+              <p class="product-recommendation-price">2,05€</p>
+            </div>
+          </div>
+          <!-- Repetir estructura .product-recommendation para más productos -->
+        </div>
+      <button class="add-to-favorites" id="2">Añadir a favoritos</button>
+      <button class="add-to-cart" id="2">Añadir al carro</button>
+    </div>
+
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="producto.js"></script>
+  </body>
+</html>

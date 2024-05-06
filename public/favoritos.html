@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="favoritos.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Favoritos</title>
+  </head>
+  <body>
+    <header>
+      <h1>Favoritos</h1>
+    </header>
+    <main>
+      <div class="products"></div>
+
+      <div class="navigation">
+        <a href="index.html">
+          <div class="nav-icon">
+            <img src="media/iconos/icono_inicio.png" alt="Inicio" />
+          </div>
+        </a>
+        <a href="escanear.html">
+          <div class="nav-icon">
+            <img src="media/iconos/icono_escanear.png" alt="Escanear" />
+          </div>
+        </a>
+        <a href="carrito.html">
+          <div class="nav-icon">
+            <img src="media/iconos/icono_carrito.png" alt="Carrito" />
+          </div>
+        </a>
+        <a href="favoritos.html">
+          <div class="nav-icon">
+            <img src="media/iconos/icono_favoritos_marcado.png" alt="Favoritos" />
+          </div>
+        </a>
+      </div>
+    </main>
+    
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="favoritos.js"></script>
+  </body>
+</html>

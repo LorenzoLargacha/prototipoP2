@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="alimentacion-aperitivos.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Aperitivos</title>
+  </head>
+  <body>
+    <header>
+      <a href="../alimentacion.html">
+        <img src="media/iconos/icono_back_arrow.png" alt="Regresar" class="back-arrow" />
+      </a>
+        <h1>Aperitivos</h1>
+    </header>
+    <main>
+      <div class="category-grid">
+        <div class="category-item">
+          <a href="productos/aceitunas.html">
+            <div class="img-container">
+              <img src="../media/aceitunas_cr.png" alt="Aceitunas Campo Real" />
+            </div>
+          </a>
+          <span class="product-name">Aceitunas Campo Real<br></span>
+          <span class="product-price">4,50€</span>
+          <button class="product-add" id="1">Añadir al carro</button>
+        </div>
+        <div class="category-item">
+          <a href="productos/patatas-lays.html">
+            <div class="img-container">
+              <img src="../media/lays.jpg" alt="Patatas Lays" />
+            </div>
+          </a>
+          <span class="product-name">Patatas Lays<br><br></span>
+          <span class="product-price">1,99€</span>
+          <button class="product-add" id="2">Añadir al carro</button>
+        </div>
+        <div class="category-item">
+          <a href="productos/pepinillos.html">
+            <div class="img-container">
+              <img src="../media/pepinilloss.jpg" alt="Patatas Lays" />
+            </div>
+          </a>
+          <span class="product-name">Pepinillos en vinagre<br></span>
+          <span class="product-price">2,05€</span>
+          <button class="product-add" id="3">Añadir al carro</button>
+        </div>
+        
+      </div>
+
+      <div class="navigation">
+        <a href="index.html">
+          <div class="nav-icon">
+            <img src="media/iconos/icono_inicio_marcado.png" alt="Inicio" />
+          </div>
+        </a>
+        <a href="escanear.html">
+          <div class="nav-icon">
+            <img src="media/iconos/icono_escanear.png" alt="Escanear" />
+          </div>
+        </a>
+        <a href="carrito.html">
+          <div class="nav-icon">
+            <img src="media/iconos/icono_carrito.png" alt="Carrito" />
+          </div>
+        </a>
+        <a href="favoritos.html">
+          <div class="nav-icon">
+            <img src="media/iconos/icono_favoritos.png" alt="Favoritos" />
+          </div>
+        </a>
+      </div>
+    </main>
+
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="alimentacion-aperitivos.js"></script>
+  </body>
+</html>

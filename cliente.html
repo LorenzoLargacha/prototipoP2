@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Socket.IO Cliente</title>
+    <script src="/socket.io/socket.io.js"></script>
+    <script>
+        var socket = io(); // Se conecta al servidor desde el cual se sirve la página
+        socket.on('connect', function() {
+            console.log('Conectado al servidor');
+            // Manejar eventos después de la conexión
+        });
+        socket.on('disconnect', function() {
+            // Manejo de la desconexión
+            console.log('Desconectado del servidor');
+        });
+    </script>
+</head>
+<body>
+  <h1>Cliente de Socket.IO</h1>
+  <!-- Elementos de la interfaz de usuario -->
+</body>
+</html>

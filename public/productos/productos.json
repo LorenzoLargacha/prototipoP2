@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "name": "Aceitunas Campo Real",
+    "price": 4.5,
+    "precioantes": 0,
+    "image": "../media/aceitunas_cr.png",
+    "cantidad": 968
+  },
+  {
+    "id": 2,
+    "name": "Patatas Lays",
+    "price": 1.99,
+    "precioantes": 3,
+    "image": "../media/lays.jpg",
+    "cantidad": 84
+  },
+  {
+    "id": 3,
+    "name": "Pepinillos en vinagre",
+    "price": 2.05,
+    "precioantes": 0,
+    "image": "../media/pepinilloss.jpg",
+    "cantidad": 282
+  }
+]
